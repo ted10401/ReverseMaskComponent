@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class RawImageScrolling : MonoBehaviour
 {
-    [SerializeField] private Vector2 m_scrollSpeed;
+    [SerializeField] private Vector2 m_scrollSpeed = Vector2.zero;
     private RawImage m_rawImage;
     private Rect m_uvRect;
 
