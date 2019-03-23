@@ -1,6 +1,6 @@
 # Reverse Mask Component
 <p align="center">
-<img width="460"  src="https://github.com/ted10401/ReverseMaskComponent/blob/master/GithubResources/ReverseMaskComponent-UnityChanDemo.gif">
+<img style="margin:auto;"  src="https://github.com/ted10401/ReverseMaskComponent/blob/master/GithubResources/ReverseMaskComponent-UnityChanDemo.gif">
 </p>
 
 ## Guideline
