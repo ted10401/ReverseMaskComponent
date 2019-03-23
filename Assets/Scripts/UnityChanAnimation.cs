@@ -2,9 +2,9 @@
 
 public class UnityChanAnimation : MonoBehaviour
 {
-    [SerializeField] private Vector3 m_from;
-    [SerializeField] private Vector3 m_to;
-    [SerializeField] private float m_duration;
+    [SerializeField] private Vector3 m_from = new Vector3(-1100, -300, 0);
+    [SerializeField] private Vector3 m_to = new Vector3(1100, -300, 0);
+    [SerializeField] private float m_duration = 10;
 
     private RectTransform m_rectTransform;
     private float m_lerp;

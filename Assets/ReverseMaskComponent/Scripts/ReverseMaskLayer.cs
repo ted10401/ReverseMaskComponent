@@ -1,7 +1,7 @@
 ﻿
 namespace UnityEngine.UI
 {
-    [AddComponentMenu("UI/ReverseMaskLayer")]
+    [AddComponentMenu("UI/Reverse Mask Layer")]
     public class ReverseMaskLayer : Image
     {
         static protected Material s_DefaultReverseMaskBackgroundMaterial = null;
