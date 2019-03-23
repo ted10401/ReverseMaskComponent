@@ -5,7 +5,7 @@
 
 ## Guideline
 ### Setup **Canvas**
-* Create a Canvas
+* Create a **Canvas**
 * Set the **Render Mode** to **Screen Space - Camera**
 * Set the camera to **Render Camera**
 <p align="center">
