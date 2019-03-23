@@ -1,4 +1,4 @@
-Shader "UI/ReverseMaskBackground"
+Shader "UI/ReverseMaskLayer"
 {
     Properties
     {

@@ -4,12 +4,12 @@ using UnityEngine.UI;
 
 namespace UnityEditor.UI
 {
-    [CustomEditor(typeof(ReverseMaskBackground), true)]
+    [CustomEditor(typeof(ReverseMaskLayer), true)]
     [CanEditMultipleObjects]
     /// <summary>
     ///   Custom Editor for the ReverseMask Component.
     /// </summary>
-    public class ReverseMaskBackgroundEditor : ImageEditor
+    public class ReverseMaskLayerEditor : ImageEditor
     {
         SerializedProperty m_Sprite;
         SerializedProperty m_Type;

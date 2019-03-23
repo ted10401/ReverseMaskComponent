@@ -1,18 +1,18 @@
 ﻿
 namespace UnityEngine.UI
 {
-    [AddComponentMenu("UI/ReverseMaskBackground")]
-    public class ReverseMaskBackground : Image
+    [AddComponentMenu("UI/ReverseMaskLayer")]
+    public class ReverseMaskLayer : Image
     {
         static protected Material s_DefaultReverseMaskBackgroundMaterial = null;
 
-        static public Material defaultReverseMaskBackgroundMaterial
+        static public Material defaultReverseMaskLayerMaterial
         {
             get
             {
                 if (s_DefaultReverseMaskBackgroundMaterial == null)
                 {
-                    s_DefaultReverseMaskBackgroundMaterial = ReverseMaskUtility.GetReverseMaskBackgroundMaterial();
+                    s_DefaultReverseMaskBackgroundMaterial = ReverseMaskUtility.GetReverseMaskLayerMaterial();
                 }
 
                 return s_DefaultReverseMaskBackgroundMaterial;
@@ -26,7 +26,7 @@ namespace UnityEngine.UI
         {
             get
             {
-                return defaultReverseMaskBackgroundMaterial;
+                return defaultReverseMaskLayerMaterial;
             }
 
             set
