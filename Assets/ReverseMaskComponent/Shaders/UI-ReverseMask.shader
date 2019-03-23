@@ -3,6 +3,7 @@ Shader "UI/ReverseMask"
     Properties
     {
         [PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
+        [HideInInspector] _AlphaClip ("Alpha Clip", Range(0, 1)) = 1
 
         [HideInInspector] _StencilComp ("Stencil Comparison", Float) = 8
         [HideInInspector] _Stencil ("Stencil ID", Float) = 0
@@ -71,6 +72,7 @@ Shader "UI/ReverseMask"
             };
 
             sampler2D _MainTex;
+            fixed _AlphaClip;
             fixed4 _TextureSampleAdd;
             float4 _ClipRect;
             float4 _MainTex_ST;
@@ -95,7 +97,7 @@ Shader "UI/ReverseMask"
                 color.a *= UnityGet2DClipping(IN.worldPosition.xy, _ClipRect);
                 #endif
                 
-                clip (color.a - 1);
+                clip (color.a - 0.01);
 
                 return fixed4(0, 0, 0, 1);
             }
