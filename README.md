@@ -1,4 +1,8 @@
 # Reverse Mask Component
+<p align="center">
+<img width="460"  src="https://github.com/ted10401/ReverseMaskComponent/blob/master/GithubResources/ReverseMaskComponent-UnityChanDemo.gif">
+</p>
+![alt tag](https://github.com/ted10401/ReverseMaskComponent/blob/master/GithubResources/ReverseMaskComponent-UnityChanDemo.gif)
 
 ## Guideline
 ### Setup **Canvas**
@@ -27,4 +31,3 @@
 ### Result
 
 ![alt tag](https://github.com/ted10401/ReverseMaskComponent/blob/master/GithubResources/ReverseMaskComponent-Demo.png)
-![alt tag](https://github.com/ted10401/ReverseMaskComponent/blob/master/GithubResources/ReverseMaskComponent-UnityChanDemo.gif)
